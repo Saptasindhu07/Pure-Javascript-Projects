@@ -1,0 +1,28 @@
+.main-box{
+    border:2px solid red;
+    margin-left:8%;
+    margin-top: 10%;
+    width:1150px;
+    height:500px
+}
+.left-box{
+    float: left;
+    width: 30%;
+    height:100%;
+    border: 1px solid blue;
+    background-image: url("Screenshot\ 2023-06-10\ 225458.png");
+    background-size: contain;
+}
+.clearfix{
+    clear: both;
+}
+.right-box{
+    float: right;
+    width: 69.6%;
+    height:100%;
+    border: 1px solid yellow;
+}
+.buttons{
+    float:left;
+    margin-left: 120px;
+}

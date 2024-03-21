@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(19, 247, 221, 0.733);
+}
+.form_box{
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.tags{
+    margin-left: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.tags input{
+    width:500px;
+    height:20px;
+    background-color: rgba(239, 236, 236, 0.296);
+    border: 0.5px solid rgb(151, 151, 151);
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px 1px rgba(207, 193, 193, 0.875);
+}

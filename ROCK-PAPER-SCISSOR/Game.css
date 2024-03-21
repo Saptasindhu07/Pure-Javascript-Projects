@@ -1,0 +1,139 @@
+body{
+    background-color: rgba(20, 16, 16, 0.87);
+}
+.title-bar{
+    background-color: black;
+    color:white;
+    margin-top: 0px;
+    height:40px;
+    text-align: center;
+}
+.Controls{
+    margin-top: 1%;
+    height: 200px;
+    margin-bottom: 6px;
+}
+.paper{
+    float: left;
+    margin-left: 5%;
+    width:23%;
+    height:100%;
+    
+}
+.rock{
+    float: left;
+    margin-left: 12%;
+    width:23%;
+    height:100%;
+}
+.scissor{
+    float: left;
+    margin-left: 12%;
+    width:23%;
+    height:100%;
+}
+.image_paper{
+    width:100%;
+    height:80%;
+    background-image: url("Screenshot\ 2023-06-11\ 005755.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.button_paper{
+    height:20%;
+    width:50%;
+    background-color:white;
+    color:orange;
+    text-decoration: solid;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    border:1.5px solid black
+}
+.button_paper:hover{
+    color:black;
+}
+.image_rock{
+    width:100%;
+    height:80%;
+    background-image: url("Rock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.button_rock{
+    height:20%;
+    width:50%;
+    background-color:white;
+    color:orange;
+    text-decoration: solid;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    border:1.5px solid black
+}
+.button_rock:hover{
+    color:black;
+}
+.image_scissor{
+    width:100%;
+    height:80%;
+    background-image: url("scissor.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.button_scissor{
+    height:20%;
+    width:50%;
+    background-color:white;
+    color:orange;
+    text-decoration: solid;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    border:1.5px solid black
+}
+.button_scissor:hover{
+    color:black;
+}
+.Game-Zone{
+    height:100000px;
+    width:95%;
+    margin-left: 2%;
+    border: solid 2px white 
+}
+.Player-Log{
+    float:left;
+    height:100%;
+    width:17%;
+}
+.AI-Log{
+    float:left;
+    height:100%;
+    width:20%;
+    border:1px solid white
+}
+.Win_Log{
+    float:left;
+    height:100%;
+    width:20%;
+    text-align: center;
+}
+.log_text{
+    font-weight: bold;
+    color: rgb(45, 235, 108);
+    font-size: 20px;
+    margin-top: px;
+}
+.Player_Score{
+    float:left;
+    height:100%;
+    width:20%;
+    text-align: center;   
+    border:1px solid white
+}
+.Computer_Score{
+    float:left;
+    height:100%;
+    width:19%;
+    text-align: center; 
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather</title>
+    <link rel="stylesheet" href="Weather.css">
+    <script src="Weather.js" defer></script>
+</head>
+<body>
+    <div class="navbar"> 
+        <div class="title">
+            <h1>LIVE WEATHER</h1>
+        </div>
+        <div class="input-section">
+            <input type="text" id="search_query" placeholder="Search City">
+        </div>
+        <div class="search-button">
+            SEARCH
+        </div>
+    </div>
+    </div>
+    <div class="line-1">
+        <div class="left-box">
+            <div class="heading">
+                TEMPERATURE
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="temp_now"> Temperature: </p>
+                <p class="value_report" style="display: inline-block;" id="temp_now_value"></p>
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="real_feel"> Real Feel: </p>
+                <p class="value_report" style="display: inline-block;" id="real_feel_value"></p>
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="min_temp"> Min Temperature: </p>
+                <p class="value_report" style="display: inline-block;" id="min_temp_value"></p>
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="max_temp"> Max Temperature: </p>
+                <p class="value_report" style="display: inline-block;" id="max_temp_value"></p>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="heading">
+                CLOUDS
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="cloud_pct"> Cloud %: </p>
+                <p class="value_report" style="display: inline-block;" id="cloud_pct_value"></p>
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="cloud_status"> Cloud Report: </p>
+                <p class="value_report" style="display: inline-block;" id="cloud_status_value"></p>
+            </div>
+        </div>
+    <div class="clearfix"></div>
+    </div>
+    <div class="line-2">
+        <div class="left-box">
+            <div class="heading">
+                WIND SPEEDS
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="wind_speed"> Wind Speed: </p>
+                <p class="value_report" style="display: inline-block;" id="wind_speed_value"></p>
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="wind_direction">Wind Direction: </p>
+                <p class="value_report" style="display: inline-block;" id="wind_direction_value"></p>
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="wind_report">Wind Report: </p>
+                <p class="value_report" style="display: inline-block;" id="wind_report_value"></p>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="heading">
+                Other Stats
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="humidity">Humidity: </p>
+                <p class="value_report" style="display: inline-block;" id="humidity_value"></p>
+            </div>
+            <div class="inner-line">
+                <p style="display: inline-block;" id="humidity_report">Humidity Report: </p>
+                <p class="value_report" style="display: inline-block;" id="humidity_report_value"></p>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="feedback">
+        <h1>Please Share your Feedback with Us....</h1>
+        <button id="feedback_button"><a href="form.html" style="text-decoration: none; color: black; font-weight: bold; font-size: 23px;" target="blank">Feedback</a></button>
+    </div>
+</body>
+</html>

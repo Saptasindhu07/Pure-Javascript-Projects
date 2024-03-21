@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.clearfix{
+    clear:both;
+}
+.navbar{
+    height:47px;
+    width:100%;
+    background-color: rgb(112, 109, 109);
+}
+h1{
+    margin: 0px 0px 0px 0px;
+}
+.title{
+    float:left;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    margin-left: 20px;
+}
+.input-section{
+    float: left;
+    margin-left: 55%;
+    margin-top:7px;
+
+}
+#search_query{
+    border:1px solid white;
+    width:98%;
+    height:28px;
+    border-radius: 100px;
+}
+.search-button{
+    float: right;
+    color: white;
+    margin-right: 2%;
+    margin-top: 1.1%;
+    width: 70px;
+    height: 40%;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+.search-button:hover{
+    background-color: white;
+    color: black;
+}
+.line-1{
+    width:80%;
+    margin-top: 2%;
+    margin-left: 8%;
+    height:200px;
+
+}
+.line-2{
+    width:80%;
+    margin-top: 2%;
+    margin-left: 8%;
+    height:200px;
+}
+.left-box{
+    float:left;
+    width:49%;
+    height: 100%;
+    background-color: rgba(241, 237, 237, 0.24);
+    border:3px solid rgb(155, 151, 151);
+    box-shadow:2px 2px 2px 2px rgb(227, 226, 226) ;
+}
+.right-box{
+    float:right;
+    width:49%;
+    height: 100%;
+    background-color: rgba(241, 237, 237, 0.24);
+    border:3px solid rgb(155, 149, 149);
+    box-shadow:2px 2px 2px 2px rgb(227, 226, 226)
+}
+.heading{
+    background-color: rgba(0, 106, 255, 0.982);
+    width:100%;
+    height:10%;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+.inner-line{
+    
+    font-size: 20px;
+    height:20%;
+    width:100%;
+    color: rgb(57, 41, 185);
+    margin-top:3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.value_report{
+    color:rgb(7, 8, 7);
+}
+.feedback{
+    margin: 20px 0px 0px 290px;
+    width:50%;
+    height:15vh;
+    background: rgba(32, 240, 255, 0.827);
+}
+.feedback h1{
+    font-family: cursive;
+    color: rgb(179, 27, 27);
+    text-align: center;
+}
+#feedback_button{
+    margin-top: 6px;
+    margin-left: 38%;
+    width: 150px;
+    height: 35px;
+}
